@@ -1,7 +1,7 @@
 ## Lichtsteuerung by BB
 Die Basis für dieses Modul ist das Modul "Treppenhauslichtsteuerung von SYMCON". 
 Diese entsprach in einigen Dingen nicht meinem UseCase, daher wurden entsprechende Erweiterungen hinzugefügt.
-Da es nun sehr viel universeller ist wurde der Modulname auf BB_Lichtsteuerung geändert. Das Modulkürzel für PHP Scripte ist nun BBL_
+Da es nun sehr viel universeller ist wurde der Modulname auf BB_Lichtsteuerung geändert. Das Modulkürzel für PHP Scripte ist nun BKL_
 
 ## Änderungen gegenüber dem Original:
 ### Dauerlicht mit automatischem Rückfall auf Normalbetrieb. 

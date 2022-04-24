@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 include_once __DIR__ . '/helper/autoload.php';
 
-class BB_Lichtsteuerung extends IPSModule
+class BK_Lichtsteuerung extends IPSModule
 {
     use HelperSwitchDevice;
     use HelperDimDevice;
@@ -41,8 +41,8 @@ class BB_Lichtsteuerung extends IPSModule
         $this->RegisterPropertyInteger('OutputID', 0);
 
         //Timers
-        $this->RegisterTimer('OffTimer', 0, "BBL_Stop(\$_IPS['TARGET']);");
-        $this->RegisterTimer('UpdateRemainingTimer', 0, "BBL_UpdateRemaining(\$_IPS['TARGET']);");
+        $this->RegisterTimer('OffTimer', 0, "BKL_Stop(\$_IPS['TARGET']);");
+        $this->RegisterTimer('UpdateRemainingTimer', 0, "BKL_UpdateRemaining(\$_IPS['TARGET']);");
 
         //Variables
         $this->RegisterVariableBoolean('Active', 'Treppenhauslichtsteuerung aktiv', '~Switch');

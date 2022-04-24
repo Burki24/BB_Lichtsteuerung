@@ -67,7 +67,7 @@
                 { "type": "Select",
                   "name": "NightMode",
                   "caption": "Night/Day Mode",
-                  "onChange": "BBL_SetNightMode($id,$NightMode);",
+                  "onChange": "BKL_SetNightMode($id,$NightMode);",
                   "options": [
                         { "caption": "Off", "value": "off" },
                         { "caption": "Night/Day Variable", "value": "boolean" },
@@ -218,7 +218,7 @@
                     "type": "CheckBox",
                     "name": "DisplayRemaining",
                     "caption": "Display remaing time",
-                    "onChange": "BBL_ToggleDisplayInterval($id, $DisplayRemaining);"
+                    "onChange": "BKL_ToggleDisplayInterval($id, $DisplayRemaining);"
                 },
                 {
                     "type": "NumberSpinner",
