@@ -175,6 +175,20 @@
                             }
                         },
                         {
+                            "name": "SensorState",
+                            "caption": "SensorState",
+                            "width": "200px",
+                            "add": 2,
+                            "edit":{
+                            "type": "Select", "name": "SState", "caption": "SState",
+                                "options":[
+                                    { "caption": "Button 1", "value": "1_single"},
+                                    { "caption": "Button 2", "value": "2_single"},
+                                    { "caption": "Button 3", "value": "3_single"}
+                                ]           
+                            }
+                        },
+                        {
                             "name": "Status",
                             "caption": "Status",
                             "width": "100px",
