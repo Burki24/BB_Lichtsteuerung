@@ -1,8 +1,8 @@
 {
-	"id": "{E1FA9666-1771-3885-89B1-629ABBA75D17}",
-	"author": "Bernhard Baptist (original Author:  Symcon GmbH)",
-	"name": "BB_Lichtsteuerung",
-	"url": "https://github.com/bbernhard1/BB_Lichtsteuerung",
+	"id": "{9063E382-F71B-578D-C3A3-72DBD5CDEAE2}",
+	"author": "Bernhard Baptist (original Author:  Symcon GmbH) (modified: Burkhard Kneiseler)",
+	"name": "BK_Lichtsteuerung",
+	"url": "https://github.com/Burki24/BB_Lichtsteuerung",
 	"compatibility": {
 		"version": "5.0"
 	},
