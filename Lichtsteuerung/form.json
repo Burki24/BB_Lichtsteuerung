@@ -184,7 +184,7 @@
                                 "options":[
                                     { "caption": "Button 1", "value": "1_single"},
                                     { "caption": "Button 2", "value": "2_single"},
-                                    { "caption": "Button 3", "value": "3_single"}
+                                    { "caption": "Button 3", "value": '3_single'}
                                 ]           
                             }
                         },
