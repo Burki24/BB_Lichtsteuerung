@@ -175,8 +175,8 @@
                             }
                         },
                         {
-                            "name": "SensorState",
-                            "caption": "SensorState",
+                            "name": "Button",
+                            "caption": "Button",
                             "width": "200px",
                             "add": 2,
                             "edit":{
@@ -192,7 +192,9 @@
                             "name": "Status",
                             "caption": "Status",
                             "width": "100px",
-                            "add": "New"
+                            "add": 3,
+				"edit":{
+					"type": "select", "name": "
                         }
                     ]
                 },   
